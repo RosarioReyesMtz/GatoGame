@@ -1,23 +1,66 @@
-<meta charset="UTF-8">
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Gat Game</title>
-  <style> 
-    body {
-      
-      background-color: #F4F6F6    ; 
-    }
-  </style>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gato Game</title>
+    <link rel="stylesheet" href="styles.css"> </head>
 <body>
-  <header>
-    <span style="color:#195177"><h2>Juego del Gato</h2></span>
-    <nav>
-      <ul>
-        <li>Integrantes:</li>
-        <li><a href="#">Sebastian Perez Perez</a></li>
-        <li><a href="#">Rosario Reyes Martinez</a></li>
-      </ul>
-    </nav>
-  </header>
+    <h1>Realizacion:</h1>
+
+    <h2>Introducción</h2>
+    <p>
+        Esta pagina documenta como se realizo un proyecto escolar. En el cual se diseño el juego del gato (Tic Tac Toe).
+    </p>
+
+    <h2>Objetivos</h2>
+    <ul>
+        <li>Crear el juego del gato en Python.</li>
+        <li>Practicar conocimientos de programacion orientada a objetos en Python.</li>
+    </ul>
+
+    <h2>Tecnologias que se usaron.</h2>
+    <ul>
+        <li><strong>HTML:</strong> Para documentar el juego en una pagina web.</li>
+        <li><strong>Python:</strong> El lenguaje en el que se desarrollo el juego.</li>
+        <li><strong>GitHub:</strong> Para lograr la colaboracion entre los desarrolladores.</li>
+    </ul>
+
+    <h2>Estructura del Juego</h2>
+    <p>El juego del gato se compone de:</p>
+    <ul>
+        <li>Un tablero de 3x3 celdas.</li>
+        <li>Dos jugadores: X y O.</li>
+        <li>Un sistema para alternar turnos.</li>
+        <li>Un mecanismo para determinar un ganador o un empate.</li>
+        <li>Un boton para reiniciar el juego en caso de victoria o empate.</li>
+    </ul>
+
+    <h2>Desarrollo: </h2>
+    <h3>Python: se importaron las librerias necesarias para </h3>
+    <p>
+        Se importaron las bibliotecas necesarias de Tkinter para construir la interfaz del juego.
+        Se definieron variables que almanenan los botones del tablero y llevan un registro del turno actual.
+        La función check_winner() se encarga de evaluar si hay un ganador al revisar filas, columnas y diagonales del tablero.
+        La función on_button_click() actualiza el botón con el símbolo correspondiente (X u O).
+        La función restart_game() permite reiniciar el juego a su estado inicial.
+        El bucle mainloop() se encarga de mantener la ventana abierta y responder a las interacciones de losjugadores.
+    </p>
+
+    <h2>Pruebas</h2>
+    <p>
+        Las purbas comprobaron la correcta funcionalidad de:
+        <ul>
+            <li>Alternancia de turnos.</li>
+            <li>Detección precisa de ganadores.</li>
+            <li>Manejo de empates.</li>
+            <li>Los botones y elementos de la interfaz.</li>
+        </ul>
+    </p>
+    <h2>Desarrolladores:</h2>
+    <ul>
+        <li> -Rosario Reyes Martinez </li>
+        <li> -Sebastian Perez Perez</li>
+    </ul>
+</body>
+</html>
